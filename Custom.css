@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(100, 148, 237, 0.479);
+}
+
+.custom-form{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4%;
+    /* display: flex; */
+}
+#left-container{
+    width: 55%;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+}
+.custom-form #headings{
+    margin: 25px 15px;
+    padding: 15px 10px ;
+    background-color:azure;
+    border-radius: 5%;
+}
+
+.custom-form #headings .form-name textarea{
+    width: 100%;
+    margin: 5px 5px 1px 5px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    background: transparent;
+    border-bottom: 2px solid rgba(100, 149, 247, 0.685);
+    
+}
+.custom-form  .form-desc textarea{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    line-height: 10px;
+    background: transparent;
+    border-bottom: 2px solid rgba(100, 149, 247, 0.685);
+}
+.custom-form #headings textarea:hover,.custom-form .main-section .left .ques textarea:hover{
+    border-bottom: 2px solid rgb(255, 120, 9);
+    background:  rgba(32, 99, 223, 0.24);
+}
+    
+textarea::-webkit-scrollbar{
+    width:0;
+}
+.custom-form .main-section{
+    margin: 0px 15px 25px 15px;
+    padding: 15px 10px ;
+    background-color:azure;
+    /* border: 1px solid green; */
+    display: flex;
+}
+.custom-form .main-section .left{
+    /* border: 1px solid red; */
+    width: 60%;
+}
+.custom-form .main-section .left .ques textarea{
+    width: 100%;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    line-height: 10px;
+    background: transparent;
+    border-bottom: 2px solid rgba(100, 149, 247, 0.685);
+    line-height: 15px;
+}
+.custom-form .main-section .left .option{
+    padding: 20px;
+}
+.custom-form .main-section .right{
+    /* border: 1px solid blue; */
+    margin-left: 18%;
+}
+.custom-form .main-section .right select{
+    width: 100%;
+    padding: 10px 50px ;
+    border-radius: 3px;
+    font-weight: 530;
+    font-size: 15px;
+    border: 2px solid rgba(100, 149, 247, 0.685);
+
+}
